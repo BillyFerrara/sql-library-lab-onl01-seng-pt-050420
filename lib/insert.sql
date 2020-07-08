@@ -19,3 +19,7 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
 (6, "Jabba The Hutt", "Obo watta no no", "hutt", 1, 1),
 (7, "Chewbacca", "AAAARRRGGHHHHHHH", "wookie", 1, 1),
 (8, "Lando", "How you doin', ya old pirate", "human", 1, 1);
+
+INSERT INTO subgenres (id, name) VALUES
+(1, "space"),
+(2, "earth");
