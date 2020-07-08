@@ -11,5 +11,8 @@ INSERT INTO books (id, title, year, series_id) Values
 (6, "Return of the Jedi", 2006, 1);
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
-(1, "Luke", "I am a Jedi, like my Father before me", human, 1, 1),
-()
+(1, "Luke", "I am a Jedi, like my father before me", "human", 1, 1),
+(2, "Leia", "Aren't you a little short to be a Stormtrooper", "human", 1, 1),
+(3, "Han", "I know", "human", 1, 1);
+(4, "Obi-Wan", "Strike me down and I'll become more powerful than you could ever have imagined", "human", 1, 1);
+(5, "Darth Vader", "No, I am your father")
