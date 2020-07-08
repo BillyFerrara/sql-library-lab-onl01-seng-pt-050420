@@ -10,4 +10,4 @@ INSERT INTO books (id, title, year, series_id) Values
 (5, "Empire Strikes Back", 2005, 1),
 (6, "Return of the Jedi", 2006, 1);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
+
