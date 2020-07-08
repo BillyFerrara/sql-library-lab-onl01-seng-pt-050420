@@ -3,3 +3,5 @@ create table series (id INTEGER PRIMARY KEY, title TEXT, author_id INTEGER, subg
 create table subgenre (id PRIMARY KEY, name TEXT);
 
 create table authors (id PRIMARY KEY, name TEXT);
+
+create table books (id PRIMARY KEY, title TEXT, year INTEGER, series TEXT);
