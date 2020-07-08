@@ -7,3 +7,5 @@ create table authors (id PRIMARY KEY, name TEXT);
 create table books (id PRIMARY KEY, title TEXT, year INTEGER, series_id INTEGER);
 
 create table characters (id PRIMARY KEY, name TEXT, motto TEXT, species TEXT, author_id INTEGER, series_id INTEGER);
+
+  
