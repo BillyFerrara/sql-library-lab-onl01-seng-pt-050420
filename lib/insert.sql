@@ -27,3 +27,7 @@ INSERT INTO subgenres (id, name) VALUES
 INSERT INTO authors (id, name) VALUES
 (1, "George Lucas"),
 (2, "Leorge Gucas");
+
+INSERT INTO character_books (id, book_id, character_id) VALUES
+
+
